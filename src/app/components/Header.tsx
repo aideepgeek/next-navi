@@ -10,7 +10,7 @@ const navigation = [
   { name: '关于', href: '/about', current: false },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
@@ -48,7 +48,8 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+
+          {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
               className="relative rounded-full p-1 text-gray-400 focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500"
@@ -57,8 +58,8 @@ export default function Header() {
               <span className="sr-only">View notifications</span>
               <BellIcon aria-hidden="true" className="size-6" />
             </button>
+          </div> */}
 
-          </div>
         </div>
       </div>
 

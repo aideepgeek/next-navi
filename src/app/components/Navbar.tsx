@@ -2,6 +2,7 @@
 
 import React from 'react'
 import FormatColorTextIcon from '@mui/icons-material/FormatColorText';
+import CategoryIcon from '@mui/icons-material/Category';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import ChatIcon from '@mui/icons-material/Chat';
 import EditNoteIcon from '@mui/icons-material/EditNote';
@@ -39,7 +40,7 @@ const Navbar = (props: Props) => {
                 className='flex items-center gap-2'
                 onClick={() => handleClick('/')}
             >
-                <FormatColorTextIcon className='h-10 w-10 bg-white rounded-full p-1' />
+                <CategoryIcon className='h-10 w-10 bg-white rounded-full p-1' />
                 <p className='text-2xl font-bold'>AI导航站</p>
             </div>
             {/* menu */}

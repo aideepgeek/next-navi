@@ -15,6 +15,13 @@
                 "description": "深度求索推出的开源大模型",
                 "img": "deepseek.jpg",
                 "link": "https://deepseek.com"
+            },
+            {
+                "id": "103",
+                "name": "Gemini",
+                "description": "Gemini 是谷歌推出的自研大模型，提供多种API接口，包括GPT-4、DALL-E等",
+                "img": "gemini.jpg",
+                "link": "https://gemini.google.com"
             }
         ]
     },
@@ -140,13 +147,6 @@
         "title": "AI新闻",
         "cards": [
             {
-                "id": "601",
-                "name": "量子位",
-                "description": "追踪人工智能新趋势,报道科技行业新突破",
-                "img": "liangziwei.jpg",
-                "link": "https://www.qbitai.com"
-            },
-            {
                 "id": "602",
                 "name": "机器之心",
                 "description": "机器之心是国内领先的前沿科技媒体和产业服务平台，关注人工智能、机器人和神经认知科学，坚持为从业者提供高质量内容和多项产业服务。",
@@ -154,11 +154,18 @@
                 "link": "https://www.jiqizhixin.com"    
             },
             {
+                "id": "601",
+                "name": "量子位",
+                "description": "追踪人工智能新趋势,报道科技行业新突破",
+                "img": "liangziwei.jpg",
+                "link": "https://www.qbitai.com"
+            },
+            {
                 "id": "603",
-                "name": "51CTO-AI",
-                "description": "51CTO人工智能专区是人工智能相关技术、资讯、热点、访谈的集聚地。主要包含人工智能、深度学习、机器学习、神经网络、语音识别、语义识别、人脸识别、无人驾驶、无人机、机器人等",
-                "img": "51cto.jpg",
-                "link": "https://www.51cto.com"
+                "name": "新智元",
+                "description": "智能+中国主平台，致力于推动中国从互联网+迈向智能+新纪元。重点关注人工智能、机器人等前沿领域发展，关注人机融合、人工智能和机器人革命对人类社会与文明进化的影响，领航中国新智能时代",
+                "img": "xinzhiyuan.jpg",
+                "link": "https://www.zhihu.com/org/xin-zhi-yuan-88-3"
             }
         ]
     },
@@ -225,6 +232,13 @@
                 "description": "Langchain 是一款AI Agent工具，支持多种Agent，包括GPT-4、DALL-E等",
                 "img": "langchain.jpg",
                 "link": "https://langchain.com"
+            },
+            {
+                "id": "804",
+                "name": "Manus",
+                "description": "Manus是一款由原中国团队Monica开发的通用人工智能代理产品，于2025年3月6日发布",
+                "img": "manus.jpg",
+                "link": "https://manus.im/"
             }
         ]
     }
